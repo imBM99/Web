@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Riyadh University CCIS</title>
+		
+		<!-- For Top navigation and footer classes -->
+		<link rel = "stylesheet" type = "text/css" href = "styles.css">
+		
+		<!-- For social media icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			h1{
+				font-family: tahoma, helvetica, sans-serif;
+				font-weight: 600;
+				font-size: 40px;
+				color: white;
+				text-align: center;
+			}
+			.box1{
+				background-color:#b35900;
+				height:230px; 
+				padding: 5px;
+			}
+			.box2{
+				background-color:#b35900;
+				height:290px; 
+				padding: 5px;
+			}
+			.box3{
+				background-color:#b35900;
+				height:340px; 
+				padding: 5px;
+			}
+			.text-box{
+				color: white;
+				text-align: center;
+				font-size: 25px;
+				font-family: times new roman, helvetica, sans-serif;
+			}		
+			.container { 
+				height: 100px;
+				position: relative;
+			}
+			.center {
+				margin: 0;
+				position: absolute;
+				top: 35%;
+				left: 50%;
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			.button {
+				background-color: #b35900; 
+				color: white;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 22px;
+				cursor: pointer;
+				border: 2px solid #FFFFFF;
+			}
+			.button:hover {
+				background-color: #FFFFFF;
+				color: black;
+			}
+			
+			/* parallax images */
+			.parallax1 {
+				background-image: url("https://www.nd.edu/stories/a-clearer-path-out-of-poverty/images/header-1600.jpg");
+					min-height: 620px;
+
+					/* Create the parallax scrolling effect */
+					background-attachment:fixed;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					filter: brightness(90%);
+			}
+			.parallax2 {
+				background-image: url("https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80");
+				min-height: 580px;
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				filter: brightness(75%);
+			}
+			.parallax3 {
+				background-image: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+				min-height: 650px;
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				filter: brightness(75%); 
+			}
+		</style>
+	</head>
+	<body style="margin:0;">
+		
+		<!-- Top navigation bar -->
+		<div class="topnav" id = "top">
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+			<a href="home.html">Home</a>
+			<img class ="logo" src = "https://api.freelogodesign.org/files/3462d7d49d3b43b79e3e1e6115a5e927/thumb/logo_200x200.png?v=637517085130000000" 
+			alt = "Not found">
+		</div>
+		
+		<!-- Parallax image 1 -->
+		
+		<div class="parallax1"></div>
+		
+		<!-- Box for welcome button  -->
+		<div class = "box1">
+			<h1>WELCOME</h1>
+			<p class="text-box">Welcome to our thriving Collage Community. Find out more about this website!
+            </p>
+			
+			<div class="container">
+				<div class="center">
+					<a href = "welcome.html" class="button">WELCOME</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Parallax image 2 -->
+		<div class="parallax2"></div>
+		
+		<!-- box for join us button -->
+		<div class = "box2">
+			<h1>JOIN US</h1>
+			<p class="text-box">The application form process is simple and designed to allow you to share your <br>academic and personal information 
+				so that we may fully consider you for <br>admission to College of computer and information sciences
+			</p>
+			
+			<div class="container">
+				<div class="center">
+					<a href = "join.html" class="button">JOIN US</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Parallax image 3 -->
+		<div class="parallax3"></div>
+		
+		<!-- box for list of studdents button -->
+		<div class = "box3">
+			<h1>LIST OF STUDENTS</h1>
+			<p class="text-box">We currently have more than 600 students in our college in all different majors
+			from <br>all around the globe, and we have more than ten thousand graduated students <br>from our college
+			and they are now working hard in their successful career<br><br>Here, our list of students
+			</p>
+			
+			<div class="container">
+				<div class="center">
+					<a href = "student.php" class="button">LIST OF STUDENTS</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer classes -->
+		<footer>
+			<div class="footer">
+				<div class = "incenter">
+					<a href="home.html">Home</a>
+					<a href="contact.html">Contact</a>
+					<a href="about.html">About</a>
+				</div>
+				<div class = "inleft">
+					<img class ="logo" src = "https://api.freelogodesign.org/files/3462d7d49d3b43b79e3e1e6115a5e927/thumb/logo_200x200.png?v=637517085130000000" 
+						alt = "Not found">
+				</div>
+				<div class = "inright">
+					<a href = "#top" class="backtotop-button"><i class="arrow right"></i></a>
+				</div>
+				<div class = "inbottom-left">
+					<p class = "copyright-text">&copy; 2021 / Group 8 / 
+						IS203 / IMAM / CCIS &trade;
+					</p>
+				</div>
+				<div class = "inbottom-right">
+					<a href="https://twitter.com/IMSIU_edu_sa" class="fa fa-twitter"></a>
+					<a href="https://www.linkedin.com/school/al-imam-mohamad-ibn-saud-university/" class="fa fa-linkedin"></a>
+					<a href="https://www.snapchat.com/add/imamu.edu" class="fa fa-snapchat-ghost"></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+

@@ -1,0 +1,142 @@
+	/* Unifed classes for all pages */
+	
+	body {
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	/* Top navigation classes */
+	.topnav {
+		overflow: hidden;
+		background-color: #1a1a1a;
+	}
+	.topnav a  {
+		float: Right;
+		color: #ffffff;
+		text-align: center;
+		padding: 45px 20px;
+		text-decoration: none;
+		font-size: 19px;
+	}
+	.topnav a:hover {
+		background-color: #e78200;
+		color: #ddd;
+	}
+	.topnav .logo {	
+		float: left;
+		width:  220px;
+		height: 110px;
+	}
+	
+	/* Footer classes */
+	.footer {	
+		background-color: #1a1a1a;
+		position: relative;
+		height: 400px;
+	}
+	.footer .incenter{
+		position: absolute;
+		top: 26%;
+		right: 36%;
+		width: 450px;
+		height: 100px;
+	}
+	.footer .incenter a  {
+		line-height: 3.6;
+		padding: 0px 200px;
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 18px;
+		letter-spacing: 5px;
+	}
+	.footer .incenter a:hover {
+		color: #e78200;
+		cursor: pointer;
+	}
+	.footer .inleft{
+		position: absolute;
+		top: 10%;
+		left: 2%;
+		width: 400px;
+		height: 100px;
+	}
+	.footer .inleft .logo {
+		width:  220px;
+		height: 220px;
+	}
+	.footer .inright{
+		position: absolute;
+		top: 5%;
+		right: 2%;
+		width: 180px;
+		height: 120px;
+	}
+	.footer .inbottom-left{
+		position: absolute;
+		top: 74%;
+		left: 2%;
+		width: 500px;
+		height: 50px;
+	}
+	.backtotop-button {
+		background-color: #1a1a1a; 
+		color: white;
+		padding: 14px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1px;
+		cursor: pointer;
+		border: 2px solid white;
+		border-radius: 50%;
+	}
+	.backtotop-button:hover {
+		border:none;
+	}			
+	.arrow {
+		border: solid white;
+		border-width: 0 9px 9px 0;
+		display: inline-block;
+		padding: 10px;
+		transform: rotate(-135deg);
+		-webkit-transform: rotate(-135deg);
+	}
+	.copyright-text{
+		color: #808080;
+		text-align: left;
+		font-size: 15px;
+	}
+	.footer .inbottom-right{
+		position: absolute;
+		top: 74%;
+		right: 2%;
+		width: 300px;
+		height: 60px;
+		text-align:center;
+	}
+	
+	/* Social media icons */
+	.fa {
+		padding: 8px;
+		font-size: 40px;
+		width: 35px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+	}
+	.fa:hover {
+		opacity: 0.7;
+	}
+	.fa-twitter {
+		background: #262626;
+		color: white;
+	}
+	.fa-linkedin {
+		background: #262626;
+		color: white;
+	}
+	.fa-snapchat-ghost {
+		background: #262626;
+		color: white;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
